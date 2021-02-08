@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
@@ -21,16 +21,16 @@ tools:context=".MainActivity">
         android:layout_weight="1"
         android:orientation="vertical"
         android:gravity="center">
+
         <ImageView
-            android:layout_width="120dp"
-            android:layout_height="66dp"
-            android:src=""
-            >
-        </ImageView>
+            android:layout_width="177dp"
+            android:layout_height="100dp"
+            android:src="@drawable/snepat"></ImageView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SMPN 4 Kota Tegal"
+            android:text="SMPN 4 KOTA TEGAL"
             android:textStyle="bold"
             android:textColor="@color/white"
             android:textSize="40dp">
@@ -55,12 +55,15 @@ tools:context=".MainActivity">
             android:orientation="vertical"
             android:layout_height="match_parent"
             android:gravity="center_horizontal">
+
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:src="@drawable/exchange"
-                android:background="@color/white">
-            </ImageView>
+                android:onClick="profil"
+                android:id="@+id/profil"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:src="@drawable/exchange"></ImageView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -70,16 +73,35 @@ tools:context=".MainActivity">
                 android:textColor="@color/black">
             </TextView>
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:id="@+id/prestasi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="prestasi"
                 android:layout_marginTop="40dp"
-                android:src="@"
+                android:src="@drawable/achievement"
                 android:background="@color/white">
             </ImageView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Prestasi"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="100dp"
+                android:onClick="hubungi"
+                android:layout_height="100dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/search"
+                android:background="@color/white">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hubungi Kami"
                 android:textSize="24dp"
                 android:textStyle="bold"
                 android:textColor="@color/black">
@@ -92,12 +114,15 @@ tools:context=".MainActivity">
             android:orientation="vertical"
             android:layout_height="match_parent"
             android:gravity="center_horizontal">
+
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:src="@drawable/maps"
-                android:background="@color/white">
-            </ImageView>
+                android:id="@+id/lokasi"
+                android:layout_width="100dp"
+                android:onClick="lokasi"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:src="@drawable/maps"></ImageView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -107,10 +132,12 @@ tools:context=".MainActivity">
                 android:textColor="@color/black">
             </TextView>
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:id="@+id/eskul"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="ekstrakulikuler"
                 android:layout_marginTop="40dp"
-                android:src="@"
+                android:src="@drawable/training"
                 android:background="@color/white">
             </ImageView>
             <TextView
@@ -121,6 +148,24 @@ tools:context=".MainActivity">
                 android:textStyle="bold"
                 android:textColor="@color/black">
             </TextView>
+
+            <ImageView
+                android:id="@+id/unduh"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="download"
+                android:layout_marginTop="40dp"
+                android:background="@color/white"
+                android:src="@drawable/folder"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Download"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

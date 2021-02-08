@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN4KOTATEGAL">
+        <activity android:name=".DownloadActivity"></activity>
+        <activity android:name=".HubungiActivity" />
+        <activity android:name=".EkstrakulikulerActivity" />
+        <activity android:name=".PrestasiActivity" />
+        <activity android:name=".LokasiActivity" />
+        <activity android:name=".ProfilActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
