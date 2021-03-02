@@ -275,16 +275,6 @@
                     android:layout_marginRight="10dp"
                     android:src="@drawable/parkiran" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="30dp"
-                    android:text="PARKIRAN"
-                    android:textColor="#000"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
             </androidx.cardview.widget.CardView>
 
 
@@ -295,6 +285,18 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="12dp"
                 app:cardCornerRadius="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:text="PARKIRAN"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
 
             </androidx.cardview.widget.CardView>
 

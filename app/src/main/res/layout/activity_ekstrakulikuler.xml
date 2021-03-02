@@ -211,7 +211,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginRight="2dp"
-                    android:src="@drawable/PMR" />
+                    android:src="@drawable/pmr" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
