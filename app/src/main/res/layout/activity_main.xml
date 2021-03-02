@@ -95,13 +95,13 @@ tools:context=".MainActivity">
                 android:onClick="hubungi"
                 android:layout_height="100dp"
                 android:layout_marginTop="40dp"
-                android:src="@drawable/search"
+                android:src="@drawable/fasilitas"
                 android:background="@color/white">
             </ImageView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hubungi Kami"
+                android:text="FASILITAS"
                 android:textSize="24dp"
                 android:textStyle="bold"
                 android:textColor="@color/black">
