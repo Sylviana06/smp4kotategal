@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfilActivity"/>
-
+    tools:context=".ProfilActivity">
 
     <ScrollView
-        android:layout_widht="match_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <GridLayout
             android:id="@+id/mainGrid"
@@ -24,138 +23,264 @@
             android:rowCount="4">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
+                android:layout_width="384dp"
+                android:layout_height="143dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_marginLeft="2dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="2dp"
                 android:layout_marginBottom="12dp"
-                app:cardCornerRadius="5dp"/>
+                app:cardCornerRadius="5dp">
 
-            <ImageView
+                <ImageView
+                    android:layout_width="408dp"
+                    android:layout_height="156dp"
+                    android:layout_margin="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/profil" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="2dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="2dp"
-                android:layout_marginRight="5dp"
-                android:src="@drawable/search"
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="15dp"
-                android:src="@drawable/folder"
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="56dp"
-                android:layout_gravity="center_horizontal"
-                android:text="SELAMAT DATANG"
-                android:textColor="#fff"
-                android:textSize="20dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="76dp"
-                android:layout_gravity="center_horizontal"
-                android:text="DI PROFIL SMPN 4 KOTA TEGAL"
-                android:textColor="#fff"
-                android:textSize="20dp" />
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="600dp"
-            android:layout_rowWeight="1"
-            android:layout_colomnWeiight="1"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginBottom="12dp"
-            app:cardCornerRadius="18dp">
-
-            <ImageView
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_height="320dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginRight="12dp"
-                android:src="@drawable/snepat"
-                />
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="10dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="80dp"
-                android:layout_marginTop="20dp"
-                android:text="SAMBUTAN KEPALA SEKOLAH"
-                android:textColor="#000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/logo" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="80dp"
-                android:layout_marginTop="42dp"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="20dp"
+                    android:text="PROFIL"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="39dp"
+                    android:layout_marginRight="12dp"
+                    android:text="SMP NEGERI 4 KOTA TEGAL"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="12dp"
+                    android:text="NPSN : 20329831"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Nama : SMPN 4 TEGAL "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="337dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Alamat : JL.Dr SETIABUDI NO.163 A, PANGGUNG, TEGAL TIMUR, TEGAL CITY, CENTRAL JAVA 52122"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="165dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Nomer Telpon :0283351603 "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="184dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Email :smp4tegal@gmail.com "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="205dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Status : 	Negeri  "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="225dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Situs :https://smpn4tegal.sch.id/  "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="12dp"
+                    android:text="SK Pendiri Sekolah : 108/S.K/B/III/65-66 "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Tanggal SK Pendiri : 1966-07-30 "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="290dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Tanggal SK Izin Oprasional : 1966-05-01 "
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginRight="12dp"
-                android:text="SMP NEGRI 4 KOTA TEGAL"
-                android:textSize="15sp" />
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="10dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginRight="12dp"
-                android:text="ASSALAMUALAIKUM wr.wb"
-                android:textColor="#000"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/logo" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="110dp"
-                android:layout_marginRight="12dp"
-                android:text="Puji syukur kepada Alloh SWT, Tuhan Yang Maha Esa yang telah memberikan rahmat dan anugerahNya sehingga website SMP Negeri 4 Tegal ini dapat terbit. Salah satu tujuan dari website ini adalah untuk menjawab akan setiap kebutuhan informasi dengan memanfaatkan sarana teknologi informasi yang ada. Kami sadar sepenuhnya dalam rangka memajukan pendidikan di era berkembangnya Teknologi Informasi yang begitu pesat, sangat diperlukan berbagai sarana prasarana yang kondusif, kebutuhan berbagai informasi siswa, guru, orangtua maupun masyarakat, sehingga kami berusaha mewujudkan hal tersebut semaksimal mungkin. Semoga dengan adanya website ini dapat membantu dan bermanfaat, terutama informasi yang berhubungan dengan pendidikan, ilmu pengetahuan dan informasi seputar SMP Negeri 4 Tegal.
-Besar harapan kami, sarana ini dapat memberi manfaat bagi semua pihak yang ada dilingkup pendidikan dan pemerhati pendidikan secara khusus bagi SMP Negeri 4 Tegal.
-Akhirnya kami mengharapkan masukan dari berbagai pihak untuk website ini agar kami terus belajar dan meng-update diri, sehingga tampilan, isi dan mutu website akan terus berkembang dan lebih baik nantinya. Terima kasih atas kerjasamanya, maju terus untuk mencapai SMP Negeri 4 Tegal yang lebih baik lagi."
-                android:textColor="#000"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="20dp"
+                    android:text="VISI DAN MISI"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="230dp"
-                android:layout_marginRight="12dp"
-                android:text=""
-                android:textColor="#000"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="39dp"
+                    android:layout_marginRight="12dp"
+                    android:text="SMP NEGERI 4 KOTA TEGAL"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="365dp"
-                android:layout_marginRight="12dp"
-                android:text=""
-                android:textColor="#000"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Visi :Terwujudnya sekolah yang berkualitas dalam prestasi dan layanan, berkarakter serta berduta lingkungan"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
-        </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Misi : 1. Melaksanakan pendidikan, pembelajaran, dan pembimbingan secara kreatif, inovatif, aktual melalui guru yang kompeten dan profesional.
+2. Meningkatkan prestasi pendidik dan peserta didik baik akademis maupun non akademis
+3. Mengembangkan kompetensi pendidik dan peserta didik sesuai tuntutan dan perkembangan pendidikan
+4. Mengembangkan layanan pendidikan yang prima, efektif, dan efisien berbasis kekinian kepada masyarakat.
+5. Mengembangkan dan mengelola sarana prasarana sekolah yang mendukung keberhasilan pendidikan dan pembelajaran secara optimal dan terpadu.
+6. Mengembangkan budaya ilmu dan tata nilai kehidupan yang religius 7. Membangun jiwa semangat nasionalisme dan kebangsaan dalam keutuhan NKRI8. Membangun dan mengembangkan komitmen cinta kehidupan alam, budaya, dan lingkungan hidup melalui :a. Pelestarian lingkungan hidup b. Pencegahan pencemaran lingkungan hidup c. Penanggulangan kerusakan lingkungan hidup d. Pemberdayaan lingkungan hidup"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/struktur">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/strukturorg"
+                    android:layout_marginTop="530dp"
+                    android:layout_gravity="bottom">
+                </ImageView>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
     </ScrollView>
-     </GridLayout>
 </RelativeLayout>
-
-

@@ -371,7 +371,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="KOPRASI"
+                    android:text="KOPERASI"
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
