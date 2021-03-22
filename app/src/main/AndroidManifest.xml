@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN4KOTATEGAL">
-        <activity android:name=".DownloadActivity"></activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"></activity>
+        <activity android:name=".DownloadActivity" />
         <activity android:name=".HubungiActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
         <activity android:name=".PrestasiActivity" />
