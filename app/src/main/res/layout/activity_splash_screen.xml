@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreenActivity"
-    android:id="@+id/splash_screen">
+    tools:context=".SplashScreenActivity">
 
     <ImageView
-        android:layout_width="132dp"
-        android:layout_height="132dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
         android:layout_centerInParent="true"
-<<<<<<< HEAD
         android:backgroundTint="#FFFFFF"
-        android:src="@drawable/logo">
-    </ImageView>
-</RelativeLayout>
+        android:src="@drawable/logo" />
 
-=======
-        android:backgroundTint="FFFFFF"
-        android:src="@drawable/snepat"  />
+    <TextView
+        android:layout_width="206dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="229dp"
+        android:text="created by SMK YPT TEGAL"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="152dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="70dp"
+        android:text="Team 4"></TextView>
+
 
 </RelativeLayout>
->>>>>>> origin/master
