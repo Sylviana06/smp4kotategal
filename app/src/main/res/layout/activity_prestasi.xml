@@ -55,9 +55,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="JUARA 2 SENAM"
+                    android:text="JUARA 1 SEPAK TAKRAW"
                     android:textColor="#000"
-                    android:textSize="18sp"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -75,7 +75,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="72dp"
-                    android:text="TAHUN 2019"
+                    android:text="TAHUN 2015"
                     android:textColor="#3F51B5"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -114,9 +114,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="JUARA 1 SEPAKBOLA"
+                    android:text="JUARA 2 LEMPAR CAKRAM"
                     android:textColor="#000"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -134,7 +134,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="72dp"
-                    android:text="TAHUN 2017"
+                    android:text="TAHUN 2015"
                     android:textColor="#3F51B5"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -173,9 +173,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="JUARA 1 PUISI"
+                    android:text="JUARA 2 BULU TANGKIS"
                     android:textColor="#000"
-                    android:textSize="18sp"
+                    android:textSize="17dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -193,7 +193,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="72dp"
-                    android:text="TAHUN 2021"
+                    android:text="TAHUN 2015"
                     android:textColor="#3F51B5"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -232,7 +232,125 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="JUARA 2 RENANG"
+                    android:text="JUARA 1 MTQ CABANG TARTIL"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="TINGKAT KOTA"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="72dp"
+                    android:text="TAHUN 2016"
+                    android:textColor="#3F51B5"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/prestasi" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="235dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:text="JUARA 2 CABANG TAHFIDZ QUR'AN"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="TINGKAT KOTA "
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="72dp"
+                    android:text="TAHUN 2016"
+                    android:textColor="#3F51B5"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/prestasi" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="235dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:text="JUARA 1 PENCAK SILAT"
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -252,7 +370,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="72dp"
-                    android:text="TAHUN 2019"
+                    android:text="TAHUN 2016"
                     android:textColor="#3F51B5"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -291,7 +409,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="JUARA 1 BOLA BASKET"
+                    android:text="JUARA 1 RENANG 100 M"
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -301,7 +419,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="TINGKAT KOTA "
+                    android:text="TINGKAT KOTA"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -350,9 +468,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="JUARA 2 RENANG"
+                    android:text="JUARA KALIGRAFI TINGGAT SMP"
                     android:textColor="#000"
-                    android:textSize="18sp"
+                    android:textSize="15dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -370,7 +488,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="72dp"
-                    android:text="TAHUN 2021"
+                    android:text="TAHUN 2017"
                     android:textColor="#3F51B5"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -409,7 +527,66 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="JUARA 1 CATUR"
+                    android:text="JUARA 1 OLIMPIADE TINGGAT SMP"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="TINGKAT KOTA"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="72dp"
+                    android:text="TAHUN 2017"
+                    android:textColor="#3F51B5"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/prestasi" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="235dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:text="JUARA 2 PUISI"
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -468,7 +645,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="JUARA 3 MUSIK"
+                    android:text="JUARA 2 BOLA VOLLY"
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -488,7 +665,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="72dp"
-                    android:text="TAHUN 2019"
+                    android:text="TAHUN 2018"
                     android:textColor="#3F51B5"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -527,9 +704,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="JUARA 1 MARATHON"
+                    android:text="JUARA H 1 NYANYI TUNGGAL"
                     android:textColor="#000"
-                    android:textSize="18sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -537,7 +714,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="TINGKAT PROVINSI"
+                    android:text="TINGKAT KOTA"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -547,16 +724,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="72dp"
-                    android:text="TAHUN 2020"
+                    android:text="TAHUN 2018"
                     android:textColor="#3F51B5"
                     android:textSize="17sp"
                     android:textStyle="bold" />
 
             </androidx.cardview.widget.CardView>
 
-
         </GridLayout>
     </ScrollView>
-
 
 </RelativeLayout>
