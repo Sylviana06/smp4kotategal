@@ -265,20 +265,22 @@
                     android:textColor="#000"
                     android:textSize="10sp"
                     android:textStyle="bold" />
-                <ImageView
+                <com.zolad.zoominimageview.ZoomInImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/struktur">
-                </ImageView>
+                </com.zolad.zoominimageview.ZoomInImageView>
 
-                <ImageView
+                <com.zolad.zoominimageview.ZoomInImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/strukturorg"
                     android:layout_marginTop="530dp"
-                    android:layout_gravity="bottom">
-                </ImageView>
+                    android:layout_gravity="bottom"
+
+                    >
+                </com.zolad.zoominimageview.ZoomInImageView>
             </androidx.cardview.widget.CardView>
 
         </GridLayout>

@@ -9,14 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN4KOTATEGAL">
-
+        <activity
+            android:name=".album5Activity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".album4Activity"
+            android:exported="true" />
+        <activity
+            android:name=".album3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".album2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".album1Activity"
+            android:exported="true" />
         <activity android:name=".DownloadActivity" />
         <activity android:name=".HubungiActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
         <activity android:name=".PrestasiActivity" />
         <activity android:name=".LokasiActivity" />
         <activity android:name=".ProfilActivity" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true">

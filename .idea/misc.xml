@@ -4,13 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/123/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
-        <entry key="..\:/123/app/src/main/res/layout/activity_download.xml" value="0.1757847533632287" />
+        <entry key="..\:/123/app/src/main/res/layout/activity_album1.xml" value="0.20416666666666666" />
+        <entry key="..\:/123/app/src/main/res/layout/activity_album2.xml" value="0.20416666666666666" />
+        <entry key="..\:/123/app/src/main/res/layout/activity_album3.xml" value="0.20416666666666666" />
+        <entry key="..\:/123/app/src/main/res/layout/activity_album4.xml" value="0.20416666666666666" />
+        <entry key="..\:/123/app/src/main/res/layout/activity_album5.xml" value="0.20416666666666666" />
+        <entry key="..\:/123/app/src/main/res/layout/activity_download.xml" value="0.25" />
         <entry key="..\:/123/app/src/main/res/layout/activity_ekstrakulikuler.xml" value="0.20416666666666666" />
         <entry key="..\:/123/app/src/main/res/layout/activity_hubungi.xml" value="0.22" />
         <entry key="..\:/123/app/src/main/res/layout/activity_lokasi.xml" value="0.25" />
-        <entry key="..\:/123/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/123/app/src/main/res/layout/activity_main.xml" value="0.14" />
         <entry key="..\:/123/app/src/main/res/layout/activity_prestasi.xml" value="0.21" />
-        <entry key="..\:/123/app/src/main/res/layout/activity_profil.xml" value="0.25" />
+        <entry key="..\:/123/app/src/main/res/layout/activity_profil.xml" value="0.12" />
         <entry key="..\:/123/app/src/main/res/layout/activity_profil_smp4.xml" value="0.20416666666666666" />
         <entry key="..\:/123/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
         <entry key="..\:/SMPN4KOTATEGAL/SMPN4KOTATEGAL/SMPN4KOTATEGAL/SMPN4tegal/SMPN4KOTATEGAL/app/src/main/res/layout/activity_download.xml" value="0.20416666666666666" />
