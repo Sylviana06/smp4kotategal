@@ -11,7 +11,7 @@
         android:theme="@style/Theme.SMPN4KOTATEGAL">
         <activity
             android:name=".album5Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".album4Activity"
             android:exported="true" />
