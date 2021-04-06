@@ -40,22 +40,14 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
-<<<<<<< HEAD
                     android:src="@drawable/kemah" />
-=======
-                    android:src="@drawable/dasarkepemimpinan" />
->>>>>>> github/master
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-<<<<<<< HEAD
                     android:text="Upacara Kegiatan Pramuka"
-=======
-                    android:text="Upacara Latihan Dasar Kepemimpinaan"
->>>>>>> github/master
                     android:textColor="#3F51B5"
                     android:textStyle="bold" />
 
@@ -114,22 +106,14 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
-<<<<<<< HEAD
-                    android:src="@drawable/upacara4" />
-=======
-                    android:src="@drawable/osis" />
->>>>>>> github/master
+                    android:src="@drawable/smp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-<<<<<<< HEAD
                     android:text="Upacara Sumpah Pemuda"
-=======
-                    android:text="Upacara Pelantikan Osis"
->>>>>>> github/master
                     android:textColor="#3F51B5"
                     android:textStyle="bold" />
 

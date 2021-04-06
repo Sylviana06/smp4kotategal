@@ -16,7 +16,7 @@
             android:name=".album4Activity"
             android:exported="true" />
         <activity
-            android:name=".album3Activity"
+            android:name=".Album3Activity"
             android:exported="true" />
         <activity
             android:name=".album2Activity"
