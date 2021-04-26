@@ -22,7 +22,7 @@ public class DownloadActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void album3(View view){
-        Intent intent=new Intent(DownloadActivity.this, album3Activity.class);
+        Intent intent=new Intent(DownloadActivity.this, album2Activity.class);
         startActivity(intent);
     }
     public void album4(View view){
